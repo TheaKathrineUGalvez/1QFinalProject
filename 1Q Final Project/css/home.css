@@ -27,13 +27,26 @@ li {
     font-size:25px;
     }
 
-li a:active{
-    background-color: aqua;
+li a:link {
+    color: red;                
+    background-color: #93b096;   
 }
 
+
+li a:visited {
+    color: black;                    
+}
+
+
 li a:hover {
-    background-color: #93b096 ;
-    }   
+    background-color:pink;   
+    color:blue;                
+}
+
+li a:active {
+    background-color: #FFFAFA;   
+    color: white;                
+}
 
 .BG1{
     text-align:center;
