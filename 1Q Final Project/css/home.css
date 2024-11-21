@@ -76,6 +76,10 @@ li a:active {
     max-width:1000px;
 }
 
+.description:hover{
+    transform:translate(10px,-10px);
+}
+
 .sdg{
     float:left;
     margin:15px;
@@ -119,6 +123,10 @@ p{
 
 h1{
     color:white;
+}
+
+h1:hover{
+    color:#4a7a44;
 }
 
 h2{
