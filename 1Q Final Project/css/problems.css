@@ -1,132 +1,61 @@
-body{
-    background-image: url('../Images/bbg.jpg');
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    padding: 30px;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ForABrighterTomorrow</title>
+        <link rel="stylesheet" type="text/css" href="../css/problems.css"> 
+    </head>
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:#4a7a44;
-    font:georgia;
-    }
+    <body>
+        <nav>
+        <ul>
+            <li><a href="../home.html">Home</a></li>
+            <li><a class="active" href ="#Problems">Problems</a></li>
+            <li><a href="solution.html">Solution</a></li>
+        </ul>
+        </nav>
+        
+    <div class="sprite1"></div>
+    <div class="sprite2"></div>
+
+    <div class="fabt">
+        <h1 class="bg1">For A Brighter Tomorrow</h1>
+    </div>
+
+    <hr>
+
+    <div class="dmpt">
+        <h1 class="mpt">Common Problems of SDG2</h1>
+    </div>
+
+    <h2 class="one">1. Increasing Water and Air Pollution</h2>
+
+    <div>
+        <img class="pi" src="../Images/pollution.jpg" >
+    </div>
+
+    <p class="op">From afar, water and air pollution may not seem related to this SDG, but this problem can be majorly connected to it. Due to irresponsible consumption and production of materials and resources, this is one of the major causes of water and air pollution in our world. From factories to simple irresponsible recycling of trash, this all contributes to pollution. Most of the time, consumers do not even know how to recycle and throw their trash properly. As mentioned before, this only makes the different types of pollution on our planet worse.</p>
     
-li a:hover {
-    background-color: #93b096 ;
-    }  
+    <hr>
 
-li {
-    float: left;
-    }
-      
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-     padding: 14px 16px;
-    text-decoration: none;
-    font-size:25px;
-    }
+    <h2 class="two">2. Excessive Waste Production</h2>
 
-.fabt{
-    text-align:center;
-    background-color:#45713f;
-    font:georgia;
-    }
-
-.bg1{
-    font-size:60px;
-    color:white;
-}
-
-.dmpt{
-    font:georgia;
-    text-align:center;
-    }
-
-.mpt{
-    font-size:50px;
-    color:white;
-    background-color:#c4b198;
-}
-
-.one{
-    overflow:hidden;
-    background-color:#d0c3a1;
-    display: inline-block;
-    font-size: 40px;
-    color:white;
-    margin:0px;
-}
-
-.pi{
-    float:right;
-    margin:20px;
-}
-
-.op{
-    overflow:hidden;
-    background-color:#dfd8b3;
-    padding:10px;
-}
-
-h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:white;
+   
+    <p class="top">Excessive Waste Production is also another common problem that stems from SDG 12. Since this SDG talks about responsible production, one of the many common problems would entail excessive waste production. This problem does not also imply irresponsible management on production, but it talks about how consumers handle their waste or their ways of recycling their trash. Excessive waste production talks about the growing amount of waste being produced by us consumers.  A concrete example of this problem is the Davao Landfill Site, due to the excess amount of waste being produced every year, the site is predicted to reach its max capacity much earlier than expected.</p>
+   
     
-}
+    <hr>
 
-p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color:black;
-}
+    <h2 class="three">3. Contribution to Greenhouse Gas Emissions</h2>
 
-.two{
-    overflow:hidden;
-    display: inline-block;
-    font-size: 40px;
-    color:white;
-    margin:0px;
-    background-color:#d0c3a1;
-}
+    <p class="threeop">This problem is already obvious to everyone, but contribution to Greenhouse Gas Emission can be traced back to SDG 12. The irresponsible management of factories contribute a lot to the production of greenhouse management. Globally, a lot of people like to burn their trash as it is easier and more convenient for them, but burning trash produces more greenhouse gases and can also produce dangerous chemical fumes that can kill us. Contribution to Greenhouse Gas Emissions as a problem is dangerous as everyone knows it is leading to global warming and climate change. These greenhouse gases are depleting our ozone layer. This ozone layer is in charge of absorbing a specific amount of sunlight but if it is depleting, then it will lead to global warming like what is happening right now.</p>
+    <br>
 
-.top{
-    overflow:hidden;
-    background-color:#dfd8b3;
-    padding:10px;
-    margin:10px;
-}
+    <div class="ct">
+    <img class="tpit" src="../Images/bb.jpg" width="500px" height="350px" >
+    <img class="tpi" src="../Images/airpollution.jpg" width="800px" height="400px" >
+    </div>
 
-.tpi{
-    float:left;
-    margin:0px
-    }
 
-.tpit{
-    float:right;
-    margin:20px;
-}
 
-.ct{
-    margin:0px;
-}
-
-.three{
-    overflow:hidden;
-    display: inline-block;
-    font-size: 40px;
-    color:white;
-    margin:0px;
-    background-color:#d0c3a1;
-}
-
-.threeop{
-    overflow:hidden;
-    background-color:#dfd8b3;
-    padding:10px;
-    margin:10px;
-}
+</body>
+</html>
